@@ -28,7 +28,7 @@ $(function() {
                 //audioPlayer.processCommands(el);
                 //audioPlayer.toggleSpinner();
                 results = [];
-                
+                console.log(el);
                 throw new BreakLoopException;
 
               }
@@ -38,7 +38,7 @@ $(function() {
                 addSongNameClickEvent(songs[0],1);
                 //audioPlayer.toggleSpinner();
                 results = [];
-                console.log(results=[]);
+                console.log(el);
               }
             });
           }
