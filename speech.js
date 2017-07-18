@@ -1,4 +1,4 @@
-$(function() {
+$(addSongNameClickEvent() {
   //audioPlayer.load();       //calling load() fxn which is stored in audioplayer var                     
   if (window['webkitSpeechRecognition']) {
     var speechRecognizer = new webkitSpeechRecognition();
