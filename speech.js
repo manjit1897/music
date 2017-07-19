@@ -22,7 +22,8 @@ $(function() {
           try {
             results.forEach(function (val, i) {   //The forEach() method calls a provided function once for each element in an array, in order.
               var el = val[0][0].transcript.toLowerCase();
-              if (currentCommands.indexOf(el.split(" ")[0]) !== -1) {
+              if (currentCommands.indexOf(el.split(" ")[0]) !== -1) {   ////split() method is used to split a string into an array of substrings, and returns the new array.
+                                                                          // //indexOf() method tells index of
                 speechRecognizer.abort();
                 addSongNameClickEvent(songs[0],1);
                 //audioPlayer.processCommands(el);
